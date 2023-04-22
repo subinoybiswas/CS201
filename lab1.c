@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void main(){
+int main(){
     int quantity;
     float price,total;
     int dis;
@@ -13,4 +13,5 @@ void main(){
     else{
         printf("Invalid!,Quantity isn't enough!");
     }
+    return 0;
 }

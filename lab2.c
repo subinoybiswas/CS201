@@ -7,7 +7,7 @@ void main(){
     avg =(s1+s2+s3+s4+s5)/5;
     if(avg>=60){
         printf("The person got first division!");}
-    else if(avg<=59&&avg>=50){
+    else if(avg>=50&&avg<=59){
         printf("The person got second division!");
     }
     else if(avg>=40&&avg<=49){
